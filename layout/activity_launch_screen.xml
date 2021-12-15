@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D081A"
+    tools:context=".LaunchScreen">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="146dp"
+        android:layout_height="22dp"
+        android:text="Recently Played"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/singerbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/singer_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <Button
+        android:id="@+id/songlistbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/songlist_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <Button
+        android:id="@+id/playlistbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/album_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <Button
+        android:id="@+id/genrebtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/genre_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <TextView
+        android:id="@+id/txtSinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="SINGER"
+        android:textColor="#a7a7a7"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singerbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtSongList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="SONG LIST"
+        android:textColor="#a7a7a7"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songlistbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="PLAYLIST"
+        android:textColor="#a7a7a7"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlistbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="GENRE"
+        android:textColor="#a7a7a7"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genrebtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="415dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/S1004"
+                android:layout_width="100dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:onClick="handleSelection"
+                android:adjustViewBounds="true"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/aligatie" />
+
+            <ImageButton
+                android:id="@+id/S1010"
+                android:layout_width="100dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="13dp"
+                android:onClick="handleSelection"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/S1004"
+                app:layout_constraintTop_toTopOf="@id/S1004"
+                app:srcCompat="@drawable/youbrokemefirst" />
+
+            <ImageButton
+                android:id="@+id/S1014"
+                android:layout_width="100dp"
+                android:layout_height="107dp"
+                android:onClick="handleSelection"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/S1010"
+                app:layout_constraintTop_toTopOf="@+id/S1010"
+                app:srcCompat="@drawable/playdate" />
+
+            <ImageButton
+                android:id="@+id/S1001"
+                android:layout_width="100dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="13dp"
+                android:onClick="handleSelection"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/S1014"
+                app:layout_constraintTop_toTopOf="@+id/S1014"
+                app:srcCompat="@drawable/naked" />
+
+            <ImageButton
+                android:id="@+id/S1002"
+                android:layout_width="100dp"
+                android:layout_height="107dp"
+                android:onClick="handleSelection"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/S1001"
+                app:layout_constraintTop_toTopOf="@+id/S1001"
+                app:srcCompat="@drawable/july" />
+
+            <ImageButton
+                android:id="@+id/S1069"
+                android:layout_width="100dp"
+                android:onClick="handleSelection"
+                android:layout_height="107dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/roundcorners"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/S1002"
+                app:layout_constraintTop_toTopOf="@+id/S1002"
+                app:srcCompat="@drawable/suicidal" />
+
+
+            <TextView
+                android:id="@+id/txtTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It's You"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/txtTitle69"
+                app:layout_constraintHorizontal_bias="0.046"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1004"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTitle10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you broke me first"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/txtTitle1"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1010"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTitle14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Date"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="@+id/txtTitle1"
+                app:layout_constraintHorizontal_bias="0.708"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1014"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naked"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="@+id/txtTitle2"
+                app:layout_constraintHorizontal_bias="0.788"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1001"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="July"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1002"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtTitle69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="360dp"
+                android:layout_marginLeft="360dp"
+                android:text="Suicidal"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@+id/txtTitle10"
+                app:layout_constraintTop_toBottomOf="@+id/S1069"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="Ali Gatie"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toStartOf="@+id/txtTitle10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle4"
+                app:layout_constraintVertical_bias="0.333"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Tate McRae"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtTitle1"
+                app:layout_constraintHorizontal_bias="0.42"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle10"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:text="Melanie Martinez"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtArtist10"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle14"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist1"
+                android:layout_width="67dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:text="James Arthur"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintEnd_toEndOf="@+id/txtTitle69"
+                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintStart_toEndOf="@+id/txtTitle14"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noah Cyrus"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.205"
+                app:layout_constraintStart_toEndOf="@+id/txtArtist1"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle2"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txtArtist69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YNW melly"
+                android:textColor="#a7a7a7"
+                android:textSize="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toEndOf="@+id/txtArtist2"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle69"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="408dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintVertical_bias="0.897"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/khalid"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btnplaylist_bg"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/khalid" />
+
+            <ImageButton
+                android:id="@+id/ruel"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/btnplaylist_bg"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toEndOf="@+id/khalid"
+                app:layout_constraintTop_toTopOf="@+id/khalid"
+                app:srcCompat="@mipmap/ruel" />
+
+            <ImageButton
+                android:id="@+id/tatemcrae"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/btnplaylist_bg"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toEndOf="@+id/ruel"
+                app:layout_constraintTop_toTopOf="@+id/ruel"
+                app:srcCompat="@mipmap/tatemcrae" />
+
+            <ImageButton
+                android:id="@+id/aligatie"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/btnplaylist_bg"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toEndOf="@+id/tatemcrae"
+                app:layout_constraintTop_toTopOf="@+id/tatemcrae"
+                app:srcCompat="@mipmap/aligatie" />
+
+            <ImageButton
+                android:id="@+id/doja"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/btnplaylist_bg"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/aligatie"
+                app:layout_constraintTop_toTopOf="@+id/aligatie"
+                app:srcCompat="@mipmap/doja" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="Khalid"
+                android:textColor="#a7a7a7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView18"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/khalid"
+                app:layout_constraintVertical_bias="0.304" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruel"
+                android:textColor="#a7a7a7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView21"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ruel"
+                app:layout_constraintVertical_bias="0.304" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Tate McRae"
+                android:textColor="#a7a7a7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView21"
+                app:layout_constraintHorizontal_bias="0.232"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/tatemcrae"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali Gatie"
+                android:textColor="#a7a7a7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView21"
+                app:layout_constraintHorizontal_bias="0.844"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aligatie"
+                app:layout_constraintVertical_bias="0.304" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Doja Cat"
+                android:textColor="#a7a7a7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.997"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/doja"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="427dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_main"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="371dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="600dp"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4"
+            app:srcCompat="@mipmap/coverlaunch1" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What's"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.354"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.351" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending"
+            android:textColor="#F332A1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.645" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Favourite Artists"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

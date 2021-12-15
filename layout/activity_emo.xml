@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chillbg"
+    tools:context=".EmoPlaylistt">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="588dp"
+        android:layout_height="448dp"
+        app:layout_constraintVertical_bias="0.8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="26dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="38dp"
+                        android:orientation="horizontal" />
+
+
+                    <ImageButton
+                        android:id="@+id/S1005"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/iftheworldwasending" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1004"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/aligatie" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1010"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.096"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.387"
+                        app:srcCompat="@drawable/youbrokemefirst" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1011"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/happiestyear" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1029"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/sugar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1002"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/july" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1073"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/thiscity" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1074"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/painkiller" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1075"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/feelings" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1076"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/idmy" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/txtTitle5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="If the World Was Ending (feat. Julia Michaels)"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:id="@+id/txtArtist5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Megan Thee Stallion"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="It's You"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ali Gatie"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="you broke me first"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.362"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.383"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/txtArtist10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tate McRae"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.334"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtTitle3"
+                            app:layout_constraintVertical_bias="0.021"
+                            tools:ignore="MissingConstraints" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Happiest Year"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AJaymes Young"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="SUGAR"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BROCKHAMPTON"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="July"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Noah Cyrus"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle73"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="This City"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist73"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sam Fischer"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle74"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Painkiller"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist74"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ruel"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle75"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Feelings"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist75"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lauv"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle76"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="i don't miss u"
+                            android:textColor="#FFF"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtArtist76"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Caro"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="427dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_main"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="483dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="237dp"
+            android:layout_height="56dp"
+            android:text="Emotional "
+            android:textColor="#FFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.688" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="116dp"
+            android:layout_height="47dp"
+            android:text="Playlist "
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.452" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

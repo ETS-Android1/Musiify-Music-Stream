@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MusicStream</string>
+    <string name="facebook_app_id">3912890058728246</string>
+    <string name="fb_login_protocol_scheme">fb3912890058728246</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Music is what feelings sound like </string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">SIGN UP NOW</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+
+
+</resources>

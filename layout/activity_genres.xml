@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E032D"
+    tools:context=".GenresActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Genres"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="213dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/popgenre"
+                            android:layout_width="155dp"
+                            android:layout_height="155dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/btnplaylist_bg"
+                            app:srcCompat="@drawable/popgenre" />
+
+
+                        <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="63dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtPopgenre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" POP"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="	#FF1493"
+                                android:textSize="20sp"/>
+                        </LinearLayout>
+
+
+                        <ImageButton
+                            android:id="@+id/lofigenre"
+                            android:layout_width="155dp"
+                            android:layout_height="155dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/btnplaylist_bg"
+                            app:srcCompat="@drawable/lofigenre" />
+
+
+                        <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="63dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtLofigenre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LO-FI"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="	#FF1493"
+                                android:textSize="20sp"
+                                tools:ignore="DuplicateIds" />
+                        </LinearLayout>
+
+
+                        <ImageButton
+                            android:id="@+id/edmgenre"
+                            android:layout_width="155dp"
+                            android:layout_height="155dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/btnplaylist_bg"
+                            app:srcCompat="@drawable/edmgenre" />
+
+
+                        <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="63dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtEDMgenre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="EDM"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="	#FF1493"
+                                android:textSize="20sp"
+                                tools:ignore="DuplicateIds" />
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/chillgenre"
+                            android:layout_width="155dp"
+                            android:layout_height="155dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/btnplaylist_bg"
+                            app:srcCompat="@mipmap/chillgenre1" />
+
+
+                        <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtChillgenre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" CHILL"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="	#FF1493"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/rbgenre"
+                        android:layout_width="155dp"
+                        android:layout_height="155dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/btnplaylist_bg"
+                        app:srcCompat="@drawable/hiphopgenre" />
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtrbgenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="   R 'n' B"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="	#FF1493"
+                            android:textSize="20sp"
+                            tools:ignore="DuplicateIds" />
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/countrygenre"
+                        android:layout_width="155dp"
+                        android:layout_height="155dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/btnplaylist_bg"
+                        app:srcCompat="@drawable/countrygenre" />
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtCountrygenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  COUNTRY"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="	#FF1493"
+                            android:textSize="20sp"
+                            tools:ignore="DuplicateIds" />
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/rapgenre"
+                        android:layout_width="155dp"
+                        android:layout_height="155dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/btnplaylist_bg"
+                        app:srcCompat="@drawable/rapgenre" />
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtRapgenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" RAP"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="	#FF1493"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/rockgenre"
+                        android:layout_width="155dp"
+                        android:layout_height="155dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/btnplaylist_bg"
+                        app:srcCompat="@drawable/rockgenre" />
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtRockgenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" ROCK"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="	#FF1493"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="427dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_main"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

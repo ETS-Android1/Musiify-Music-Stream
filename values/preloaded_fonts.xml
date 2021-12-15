@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bangers</item>
+        <item>@font/cinzel_bold</item>
+        <item>@font/didact_gothic</item>
+        <item>@font/droid_sans_bold</item>
+        <item>@font/droid_serif_bold_italic</item>
+        <item>@font/faster_one</item>
+        <item>@font/fugaz_one</item>
+        <item>@font/hind_medium</item>
+        <item>@font/istok_web</item>
+        <item>@font/lobster</item>
+        <item>@font/rubik</item>
+        <item>@font/work_sans_semibold</item>
+    </array>
+</resources>

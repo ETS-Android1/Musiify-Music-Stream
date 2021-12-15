@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popbg"
+    tools:context=".PopGenre">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="588dp"
+        android:layout_height="448dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="UnknownId">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="26dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="38dp"
+                        android:orientation="horizontal" />
+
+                    <ImageButton
+                        android:id="@+id/S1005"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/iftheworldwasending" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1022"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/watermelonsugar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1003"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.096"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.387"
+                        app:srcCompat="@drawable/deathbed" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1004"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/aligatie" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1023"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/breakmyheart" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1020"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/letsfallinlove" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1007"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/better" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1021"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/whatmakesyoubeautiful" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1009"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/areyouboredyet" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1024"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/savage" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1025"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/losesomebody" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1012"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/selfish" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1026"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/falling" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1014"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/playdate" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1027"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/roxanne" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/S1016"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="handleSelection"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/sayso" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="If the World Was Ending"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/txtArtist5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Julia Michaels"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Watermelon Sugar"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Harry Styles"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="death bed"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.362"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.383"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/txtArtist3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Powfu"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.334"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtTitle3"
+                            app:layout_constraintVertical_bias="0.021"
+                            tools:ignore="MissingConstraints" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="It's You"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ali Gatie"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Break My Heart"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dua Lipa"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Let's Fall in Love for the Night"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FINNEAS"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp"
+                            app:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Better"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Khalid"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="What Makes You Beautiful"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="One Direction"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Are You Bored Yet?"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wallows"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Savage Remix(feat. Beyonce)"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Megan Thee Stallion"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lose Somebody"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kygo"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Selfish"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Madison Beer"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Falling"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Trevor Daniel"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Play Date"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Melanie Martinez"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ROXANNE"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Arizona Zervas"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="61dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtTitle16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Say So"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtArtist16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Doja Cat"
+                            android:textColor="	#FF1493"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="427dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_main"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="494dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:text="Pop "
+            android:textColor="#FFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.685" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="116dp"
+            android:layout_height="47dp"
+            android:text="Genre "
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.452" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
